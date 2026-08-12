@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>DAY X REFORGED — Post-Apocalyptic Minecraft</title>
+  <meta name="description" content="DAY X REFORGED — постапокалиптический Minecraft-проект нового поколения. Исследуй опасный мир, выживай, находи ресурсы и сталкивайся с радиацией.">
+  <meta name="theme-color" content="#070807">
+  <link rel="icon" type="image/png" href="dayxrefoeged.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DAY X REFORGED — Post-Apocalyptic Minecraft">
+  <meta property="og:description" content="DAY X REFORGED — постапокалиптический Minecraft-проект нового поколения. Исследуй опасный мир, выживай, находи ресурсы и сталкивайся с радиацией.">
+  <meta property="og:image" content="photo_2_2026-08-11_23-04-47.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="photo_2_2026-08-11_23-04-47.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<!-- ============================================================
+     HEADER
+============================================================= -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="#top" aria-label="DAY X REFORGED — на главную">
+      <img src="dayxrefoeged.png" alt="Логотип DAY X REFORGED" width="40" height="40">
+    </a>
+
+    <nav class="site-nav" aria-label="Основная навигация">
+      <a href="#top">ГЛАВНАЯ</a>
+      <a href="#world">МИР</a>
+      <a href="#survive">SURVIVE</a>
+      <a href="#radiation">RADIATION</a>
+      <a href="#status">STATUS</a>
+      <a href="#news">NEWS</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="status-pill" href="#status" aria-label="Статус сервера — перейти к разделу статуса">
+        <span class="status-dot loading" id="header-dot" aria-hidden="true"></span>
+        <span data-header-status>CHECKING</span>
+      </a>
+      <a class="btn btn-ghost" href="https://discord.gg/RFvmcHEYm" target="_blank" rel="noopener">DISCORD</a>
+      <a class="btn btn-primary" href="https://discord.gg/RFvmcHEYm" target="_blank" rel="noopener">START</a>
+    </div>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <nav class="mobile-nav" aria-label="Мобильная навигация">
+      <a href="#top" data-num="00">ГЛАВНАЯ</a>
+      <a href="#world" data-num="01">МИР</a>
+      <a href="#survive" data-num="02">SURVIVE</a>
+      <a href="#radiation" data-num="03">RADIATION</a>
+      <a href="#status" data-num="04">STATUS</a>
+      <a href="#news" data-num="05">NEWS</a>
+      <a href="#faq" data-num="06">FAQ</a>
+    </nav>
+    <div class="mobile-menu-foot">
+      <a class="btn btn-outline" href="#status">СМОТРЕТЬ СТАТУС</a>
+      <a class="btn btn-primary" href="https://discord.gg/RFvmcHEYm" target="_blank" rel="noopener">JOIN DISCORD</a>
+      <span class="mobile-menu-meta">@dayxreforged</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================================================
+     HERO
+============================================================= -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="hero-media-wrap" aria-hidden="true">
+    <div class="hero-bg" data-parallax="28"></div>
+  </div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="hero-fog" aria-hidden="true"></div>
+  <div class="hero-grain" aria-hidden="true"></div>
+  <div class="hero-vignette" aria-hidden="true"></div>
+  <div class="hero-scan" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <div class="hero-meta">
+      <span class="hero-code">DAY X / SECTOR 01</span>
+      <span class="hero-est">EST. 2026</span>
+    </div>
+
+    <h1 class="hero-title" id="hero-title">
+      <span class="t-line">DAY&nbsp;X</span>
+      <span class="t-line accent">REFORGED</span>
+    </h1>
+
+    <p class="hero-kicker">POST-APOCALYPTIC / SURVIVAL</p>
+
+    <p class="hero-text">Мир закончился.<br>Выживание — только начинается.</p>
+
+    <div class="hero-actions">
+      <a class="btn btn-primary btn-lg" href="#world">
+        ENTER THE WASTELAND
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <path d="M4 10l4-4 4 4"/>
+        </svg>
+      </a>
+      <a class="btn btn-outline btn-lg" href="https://discord.gg/RFvmcHEYm" target="_blank" rel="noopener">JOIN DISCORD</a>
+    </div>
+  </div>
+
+  <div class="hero-side" aria-hidden="true">
+    <span>LIVE</span>
+    <span>UNKNOWN TERRITORY</span>
+    <span>50°27′N / 30°31′E</span>
+  </div>
+
+  <a class="scroll-cue" href="#world" aria-label="Прокрутить к разделу «Мир»">
+    <span>SCROLL TO EXPLORE</span>
+    <span class="scroll-line" aria-hidden="true"></span>
+  </a>
+</section>
+
+<!-- ============================================================
+     01 / THE WORLD
+============================================================= -->
+<section class="section world" id="world">
+  <span class="ghost-number" aria-hidden="true">01</span>
+
+  <div class="container world-grid">
+    <div class="world-media reveal">
+      <figure>
+        <img src="photo_4_2026-08-11_23-04-47.jpg" alt="Заброшенный мир DAY X REFORGED — разрушенная территория" loading="lazy" decoding="async" width="1920" height="1080">
+        <figcaption>SECTOR 01 / UNKNOWN TERRITORY</figcaption>
+      </figure>
+      <div class="world-meta" aria-hidden="true">
+        <span>EST. 2026</span>
+        <span>OPEN WORLD</span>
+        <span>HOSTILE</span>
+      </div>
+    </div>
+
+    <div class="world-copy reveal" data-reveal-delay="1">
+      <p class="section-label">01 / THE WORLD</p>
+      <h2 class="section-title">THE WORLD</h2>
+      <p class="lead">Мир, в котором цивилизация больше не существует.</p>
+      <p class="body">DAY X REFORGED — это постапокалиптический мир, где разрушенная цивилизация оставила после себя заброшенные города, опасные территории, редкие ресурсы и неизвестность.</p>
+      <ul class="feature-list">
+        <li>OPEN WORLD</li>
+        <li>DANGEROUS TERRITORIES</li>
+        <li>ABANDONED CITIES</li>
+        <li>HIDDEN RESOURCES</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     02 / SURVIVE
+============================================================= -->
+<section class="section survive" id="survive">
+  <span class="ghost-number" aria-hidden="true">02</span>
+
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-label">02 / SURVIVE</p>
+      <h2 class="section-title">SURVIVE</h2>
+      <p class="section-sub">Шесть систем решают, кто выживет в пустоши, а кто останется в ней навсегда.</p>
+    </div>
+
+    <div class="survive-grid">
+      <article class="scell scell-lg reveal">
+        <span class="scell-code">01 / HAZARD</span>
+        <div class="scell-media" aria-hidden="true"></div>
+        <h3>RADIOACTIVE ZONES</h3>
+        <p>Радиация постепенно превращает территорию в смертельную ловушку.</p>
+      </article>
+
+      <article class="scell scell-md reveal" data-reveal-delay="1">
+        <span class="scell-code">02</span>
+        <h3>DYNAMIC WORLD</h3>
+        <p>Мир постоянно ощущается живым и опасным.</p>
+      </article>
+
+      <article class="scell scell-md reveal" data-reveal-delay="2">
+        <span class="scell-code">03</span>
+        <h3>LOOT &amp; RESOURCES</h3>
+        <p>Ресурсы ограничены. Каждое решение имеет значение.</p>
+      </article>
+
+      <article class="scell scell-sm reveal" data-reveal-delay="1">
+        <span class="scell-code">04</span>
+        <h3>DANGEROUS TERRITORIES</h3>
+        <p>Неизвестные территории могут оказаться смертельными.</p>
+      </article>
+
+      <article class="scell scell-sm reveal" data-reveal-delay="2">
+        <span class="scell-code">05</span>
+        <h3>EQUIPMENT</h3>
+        <p>Экипировка определяет твои шансы на выживание.</p>
+      </article>
+
+      <article class="scell scell-sm scell-wide reveal" data-reveal-delay="3">
+        <span class="scell-code">06</span>
+        <h3>PLAYER ECONOMY</h3>
+        <p>Игроки взаимодействуют, торгуют и формируют собственную экономику.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     03 / HAZARD SYSTEM
+============================================================= -->
+<section class="section radiation" id="radiation">
+  <span class="ghost-number" aria-hidden="true">03</span>
+  <div class="radiation-bg" data-parallax="35" aria-hidden="true"></div>
+
+  <div class="container radiation-grid">
+    <div class="radiation-copy reveal">
+      <p class="section-label">03 / HAZARD SYSTEM</p>
+      <h2 class="section-title">RADIATION</h2>
+      <p class="lead">Некоторые территории лучше обходить стороной.</p>
+      <p class="body">Дозиметры врут, респираторы спасают не всегда. Уровень заражения меняется — следи за индикатором, пока не поздно.</p>
+    </div>
+
+    <div class="rad-meter reveal" data-reveal-delay="1" role="img" aria-label="Индикатор уровня радиации: нормальный, высокий, критический">
+      <div class="rad-meter-head">
+        <span>RADIOACTIVE LEVEL</span>
+        <span class="rad-meter-val">HIGH</span>
+      </div>
+
+      <div class="rad-meter-track" aria-hidden="true">
+        <div class="rad-seg s-normal"><span></span></div>
+        <div class="rad-seg s-normal"><span></span></div>
+        <div class="rad-seg s-normal"><span></span></div>
+        <div class="rad-seg s-normal"><span></span></div>
+        <div class="rad-seg s-high"><span></span></div>
+        <div class="rad-seg s-high"><span></span></div>
+        <div class="rad-seg s-high"><span></span></div>
+        <div class="rad-seg s-high"><span></span></div>
+        <div class="rad-seg s-crit"><span></span></div>
+        <div class="rad-seg s-crit"><span></span></div>
+        <div class="rad-seg s-crit"><span></span></div>
+        <div class="rad-seg s-crit"><span></span></div>
+        <div class="rad-scan"></div>
+      </div>
+
+      <div class="rad-meter-scale">
+        <span>NORMAL</span>
+        <span class="scale-high">⚠ HIGH</span>
+        <span class="scale-crit">⚠ CRITICAL</span>
+      </div>
+
+      <div class="rad-meter-foot">
+        <span>R-03 / WARNING / EXPOSURE</span>
+        <span class="rad-blink">SIGNAL ACTIVE</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     04 / SURVIVAL
+============================================================= -->
+<section class="section progression" id="survival">
+  <span class="ghost-number" aria-hidden="true">04</span>
+
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-label">04 / SURVIVAL</p>
+      <h2 class="section-title">SURVIVE <span>OR DIE</span></h2>
+    </div>
+
+    <ol class="timeline">
+      <li class="tl-step reveal">
+        <span class="tl-num" aria-hidden="true">01</span>
+        <h3>FIND</h3>
+        <p>Найди ресурсы.</p>
+      </li>
+      <li class="tl-step reveal" data-reveal-delay="1">
+        <span class="tl-num" aria-hidden="true">02</span>
+        <h3>SURVIVE</h3>
+        <p>Защити себя.</p>
+      </li>
+      <li class="tl-step reveal" data-reveal-delay="2">
+        <span class="tl-num" aria-hidden="true">03</span>
+        <h3>ESCAPE</h3>
+        <p>Выбери правильный путь.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================================
+     05 / LIVE SYSTEM
+============================================================= -->
+<section class="section status" id="status">
+  <span class="ghost-number" aria-hidden="true">05</span>
+  <div class="status-grid-bg" aria-hidden="true"></div>
+
+  <div class="container status-grid">
+    <div class="status-copy reveal">
+      <p class="section-label">05 / LIVE SYSTEM</p>
+      <h2 class="section-title">SERVER STATUS</h2>
+      <p class="lead">Прямое подключение к серверу. Без прикрас.</p>
+      <div class="status-line" aria-live="polite">
+        <span class="status-dot loading" id="status-dot" aria-hidden="true"></span>
+        <span data-big-status>CHECKING STATUS</span>
+      </div>
+    </div>
+
+    <div class="status-panel reveal" data-reveal-delay="1">
+      <span class="panel-label">PLAYERS ONLINE</span>
+      <div class="panel-count" data-players>—</div>
+      <span class="panel-note" data-player-note>—</span>
+      <div class="panel-foot">
+        <span>LAST SYNC</span>
+        <span data-updated>—</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     06 / TRANSMISSIONS
+============================================================= -->
+<section class="section news" id="news">
+  <span class="ghost-number" aria-hidden="true">06</span>
+
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-label">06 / TRANSMISSIONS</p>
+      <h2 class="section-title">LATEST NEWS</h2>
+    </div>
+
+    <!-- Редактируйте новости здесь: tag, заголовок, статус -->
+    <div class="news-grid">
+      <!-- NEWS 1 / FEATURED -->
+      <article class="news-card news-featured reveal">
+        <img src="photo_12_2026-08-11_23-04-47.jpg" alt="Разработка DAY X REFORGED" loading="lazy" decoding="async" width="1280" height="678">
+        <div class="news-body">
+          <span class="news-tag">DAY X REFORGED</span>
+          <h3>Development<br>Update</h3>
+          <span class="news-status">COMING SOON...</span>
+        </div>
+      </article>
+
+      <!-- NEWS 2 -->
+      <article class="news-card reveal" data-reveal-delay="1">
+        <div class="news-body">
+          <span class="news-tag">WORLD</span>
+          <h3>New<br>Territory</h3>
+          <span class="news-status">COMING SOON...</span>
+        </div>
+      </article>
+
+      <!-- NEWS 3 -->
+      <article class="news-card reveal" data-reveal-delay="2">
+        <div class="news-body">
+          <span class="news-tag">SYSTEM</span>
+          <h3>Radiation<br>System</h3>
+          <span class="news-status">COMING SOON...</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     07 / INFORMATION
+============================================================= -->
+<section class="section faq" id="faq">
+  <div class="container faq-inner">
+    <div class="section-head reveal">
+      <p class="section-label">07 / INFORMATION</p>
+      <h2 class="section-title">FAQ</h2>
+    </div>
+
+    <div class="faq-list reveal" data-reveal-delay="1">
+      <details>
+        <summary>Как начать играть?</summary>
+        <p>Присоединитесь к Discord: там будут опубликованы инструкции и новости запуска.</p>
+      </details>
+      <details>
+        <summary>Где следить за обновлениями?</summary>
+        <p>Подписывайтесь на Discord и Telegram @dayxreforged.</p>
+      </details>
+      <details>
+        <summary>На какую версию рассчитан проект?</summary>
+        <p>Актуальная информация о версии публикуется в Discord и Telegram.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FINAL CTA
+============================================================= -->
+<section class="final-cta">
+  <div class="cta-bg" data-parallax="40" aria-hidden="true"></div>
+  <div class="cta-shade" aria-hidden="true"></div>
+  <div class="cta-grain" aria-hidden="true"></div>
+
+  <div class="container cta-inner">
+    <p class="cta-code">FINAL SECTOR / TRANSMISSION END</p>
+    <h2 class="cta-title">
+      <span class="t-line">ENTER</span>
+      <span class="t-line accent">THE WASTELAND</span>
+    </h2>
+    <p class="cta-text">Готов ли ты войти в мир DAY X REFORGED?</p>
+    <div class="cta-actions">
+      <a class="btn btn-primary btn-lg" href="https://discord.gg/RFvmcHEYm" target="_blank" rel="noopener">JOIN DISCORD</a>
+      <a class="btn btn-outline btn-lg" href="https://discord.gg/RFvmcHEYm" target="_blank" rel="noopener">START PLAYING</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+============================================================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="footer-title">DAY X REFORGED</span>
+      <span class="footer-desc">POST-APOCALYPTIC MINECRAFT PROJECT</span>
+    </div>
+
+    <nav class="footer-links" aria-label="Социальные ссылки">
+      <a href="https://discord.gg/RFvmcHEYm" target="_blank" rel="noopener">DISCORD</a>
+      <a href="https://t.me/dayxreforged" target="_blank" rel="noopener">TELEGRAM</a>
+    </nav>
+
+    <div class="footer-copy">© 2026 DAY X REFORGED</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
