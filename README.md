@@ -1,3 +1,5 @@
+https://kost1al-source.github.io/DayXReforgedwebopen/
+
 # DAY X REFORGED
 
 Статический сайт проекта DAY X REFORGED. Для запуска не требуются Node.js, PHP, база данных или сборка.
